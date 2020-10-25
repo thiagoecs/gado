@@ -20,7 +20,7 @@ function gado() {
     corpo.appendChild(som);
     newParagraph.innerHTML = number+"% Gado pra porra";
     corpo.appendChild(newParagraph);
-    newImage.src = "img/rei_do_gado.jpg";
+    newImage.src = "img/gado_dourado.gif";
     corpo.appendChild(newImage);
     corpo.appendChild(refresh);
     refresh.onclick = gado;
