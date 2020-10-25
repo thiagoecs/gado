@@ -1,3 +1,30 @@
-h1{
-    background-color: aqua;
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #cecece;
+    width: 600px;
+    margin: auto;
+    padding: 40px;
+}
+figure img{
+    width: 400px;
+    height: auto;
+}
+
+#divi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container button{
+    margin-top:20px;
 }
