@@ -3,7 +3,7 @@ var divi = document.getElementById("divi");
 var newParagraph = document.createElement("p");
 var newImage = document.createElement("img");
 var som = document.createElement("audio");
-var corpo = document.querySelector("body");
+var corpo = document.getElementById("container");
 var refresh = document.createElement("button");
 var somSource = document.createElement("source");
 
